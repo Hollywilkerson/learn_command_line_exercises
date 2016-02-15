@@ -9,6 +9,14 @@ popd, like pushd, shows the stack on its side, with the top of the stack on the 
 and the bottom of the stack on the right.
 
 
+In order to get to the readme.md for this chapter I was within quite a few directories.  I was within a path of quite of few directories.  I was within the home directory... the  workspace directory, the class directory which is called davinci_coders_t1_2016.
+Then I was within the directory called homework... and  the learn_command_line_exercises directory ... and within the chapter_8 directory... 
+
+
+
+
+
+
 
  
 
