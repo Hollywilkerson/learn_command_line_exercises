@@ -1,4 +1,4 @@
-Can you make a temp directory?
+# Can you make a temp directory?
 
 Yes, you can make a temp directory.You would just go to whatever directory you want to
 add the temp directory in and you would use the command 'mkdir' and type in the name you want to
@@ -29,7 +29,7 @@ and this would created multiple directories within that path.
 
 Both these ways would create directories within directories within directories. :)
 
-Can you make a log directory in your class directory?
+# Can you make a log directory in your class directory?
 
 yes you would just go to the class directory on your command line and you would type
 'mkdir log'
