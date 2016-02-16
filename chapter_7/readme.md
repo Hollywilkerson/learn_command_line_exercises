@@ -1,7 +1,7 @@
 
-ENGLISH QUESTIONS
+# ENGLISH QUESTIONS
 
-Can you remove the tmp directory?
+# Can you remove the tmp directory?
 
 Yes you can remove the tmp directory... you would have to make sure that 
 you deleted out or moved the other directories that are within that tmp 
@@ -41,7 +41,7 @@ Now you will just be in the directory called chapter_7
 
  
 
-Let's remove the tmp directory.
+# Let's remove the tmp directory.
 
 Starting at  
 
@@ -67,7 +67,7 @@ rmdir tmp
 
 
 
-DO MORE
+ # DO MORE SECTION
 
 okay so i made 20 more directories by typing this in while i was in the tmp directory
 
@@ -124,7 +124,7 @@ now we should be sitting in the tmp directory again. and if we hit the command '
 list any options
 
 
-MAKE A SINGLE PATH OF  10 DIRECTORIES AND REMOVE THEM ALL 
+# MAKE A SINGLE PATH OF  10 DIRECTORIES AND REMOVE THEM ALL 
  I am going to start here on this path.... 
  /Users/hollywilkerson/workspace/davinci_coders_t1_2016/homework/learn_command_line_exercises/
  chapter_7/tmp/cat/dog/mouse/cow/monkey/snake/hamster/rat/chicken/zebra
