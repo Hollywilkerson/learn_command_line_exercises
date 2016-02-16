@@ -1,7 +1,7 @@
-Alternative English ways of asking you to create a file:
+# Alternative English ways of asking you to create a file:
 
 
-Can you touch blah.txt?
+# Can you touch blah.txt?
 
 Yes I can... so if I am in the directory chapter_9, I have a directory within that called 
 "temp"  I plan on creating an empty file named "blah.txt" within the directory called "temp"
@@ -20,7 +20,7 @@ My options right now are "blah.txt" or "iamcool.txt"
 So i now have a empty file called "blah.txt"
 
 
-Let's create foo.txt.
+# Let's create foo.txt.
 
 so starting from    the temp directory again it will look like this...
 
@@ -35,10 +35,9 @@ touch foo.txt
  
  So i created another empty file named "foo.txt" within the directory "temp"
  
+# DO MORE SECTION
 
-DO MORE
-
-Unix: Make a directory, change to it, and then make a file in it. 
+# Unix: Make a directory, change to it, and then make a file in it. 
 Then change one level up and run the rmdir command in this directory. 
 You should get an error. Try to understand why you got this error.
 
@@ -72,7 +71,7 @@ It tells me this because I have a text document named "iamcool.txt" within that 
 So it will not let me delete that directory unless I remove that empty file first. 
 
 
-Explain what happens when you touch an existing file:
+# Explain what happens when you touch an existing file:
 
 When you try to touch an existing file nothing happens. It doesnt do anything because
 'touch' is used as a quick way to create an empty file if it doesnt exist. If it ALREADY exists,
