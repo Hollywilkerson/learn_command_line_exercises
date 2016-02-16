@@ -1,3 +1,4 @@
+# Explain what the command ls does 
 'ls' lists out the contents of the directory you are currently in. While you are in a 
  directory you can type in the command 'ls' and it will list whatever is within that directory
  It will list off which directories are available to go to next.  Whenever you are lost
@@ -5,16 +6,16 @@
  you type 'ls' and you can see the list of options for what path you want to take next.
  
 
-Alternative English Ways:
+# Alternative English Ways:
 
-What's in the tmp directory?
+# What's in the tmp directory?
 
 If you were within the directory called "tmp"  you would just type the command 'ls'
 This would then give you a list of what is within that directory tmp. In this case
 it lists off the directory called "stuff" since we created that earlier. 
 
 
-Can you show me what files are in that directory?
+# Can you show me what files are in that directory?
 
 Yes whatever directory you want to see what's inside you will cd to that directory by typing:
  'cd directory name'
@@ -22,7 +23,7 @@ and then type the  command 'ls'
  and it will list off all the files and directories within that directory.
 
 
-What files are in your home directory?
+#What files are in your home directory?
 
 You would go to your home directory by typing the command
   'cd'
@@ -33,7 +34,7 @@ Applications, Bittorent Sync, Desktop, Documents,
 Downloads, Library, Movies, Music, Pictures, Public, bash_backup,
 Learn_command_line_exercises, my_name.txt, workspace
 
-What's in slash temp?
+# What's in slash temp?
  
 In this case you would follow your path to the temp directory...
 Which I created a temp directory within the chapter_6 directory. So it looks like 
