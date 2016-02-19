@@ -38,7 +38,7 @@ you were unsure of what your options are within the chapter_5 directory you woul
 just type the command 'ls'  and it would list your options.
 And in this case  "readme.md" and "temp" would be an option to select from.
 
-# Why don't we go into the temp directory?
+# Why don't we go into the slash temp directory?
 
 You could go into the temp directory if you wanted, as of right now though we dont
 have any documents in the temp directory.  so if we typed 'cd temp' while we
@@ -47,33 +47,13 @@ path ends right now. We would know this because if we typed the command 'ls' now
 it wouldnt list anything else.
 
 
-# Can you go to the slash temp directory?
+# Can you go to the slash tmp directory?
 
-Yes you can. You would make sure you were on the path of...
+Yes you can. You would type
+cd /tmp
+This would show me the temporary Os files.
 
-cd ~/workspace/davinci_coders_t1_2016 
- then You would type    :
- 
-'cd chapter_5/temp'
-
-and this would take you within the temp directory within the chapter_5 directory.
 
 
 # Can you go to the slash temp slash log directory?
-
-You could do this if you made sure that you made the directory log
-while you were in the directory "temp". To do this you would type the command:
- 
-'mkdir log'     
-This would create a directory called "log" within the directory "temp" which is
-within the directory "chapter_5".
-
-So in order to go to the slash temp slash log directory you would make sure your path
-was already on   
-cd ~/workspace/davinci_coders_t1_2016
-and then you would type in
-'cd chapter_5/temp/log'
-and you would now be in the directory log   :)
-
-
-
+No you can not. It doesnt exist.
