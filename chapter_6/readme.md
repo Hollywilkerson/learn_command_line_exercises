@@ -35,23 +35,11 @@ Downloads, Library, Movies, Music, Pictures, Public, bash_backup,
 Learn_command_line_exercises, my_name.txt, workspace
 
 # What's in slash temp?
+There is temporary OS files... This is the output it get if I look what files are in the /tmp
  
-In this case you would follow your path to the temp directory...
-Which I created a temp directory within the chapter_6 directory. So it looks like 
-this on my command line...
-
-cd ~/workspace/davinci_coders_t1_2016/chapter_6
+ SOutOfProcessFetcher.501.sAglCyxY5lzPoNgfmEvv-ZqGl-w=
+ com.apple.launchd.6ayaBXhhjb
+ com.apple.launchd.hzqUje5xn5
+ ct.shutdown
  
-From the chapter_6 directory we could type
- 'ls' and it will list off our options. In this case our
-options are "readme.md" and "temp". We will switch to the temp folder by typing in the command 
-'cd temp'
-now we are in the directory named "temp".  In order to see what's inside the temp directory 
-we will type the command
- 'ls'
-this will list off the options within this directory.Right now our options within 
-the "temp" folder is "log".
-so we could cd to the log directory if we wanted by typing
-'cd log'
-
-
+ 
