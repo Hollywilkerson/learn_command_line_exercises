@@ -29,4 +29,6 @@ No you can not.
 
 
 # Find these files in your graphical user interface and open them in a text editor.
+Notice how sometimes I put a / (slash) at the end of a directory? That makes sure the
+file is really a directory,  so if the directory doesn't exist I'll get an error.
 
