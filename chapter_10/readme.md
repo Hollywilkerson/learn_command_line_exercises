@@ -19,16 +19,25 @@ now type
 this will list the foo.txt file copy inside the "tmp" directory. 
 
 ##Can you copy .bash_profile in your home directory to the current directory?
-No you can not. 
+No I can not. I cannot find .bash_profile in my home directory.
+If it were there, this would be how to copy it to my current Chapter_10 directory.
+              
+              Command used cp .bash_profile Chapter_10
 
 # Do More Section
 # Use the cp -r command to copy more directories with files in them.
+I copied all of my desktop folders (and their files) into something/
+
+Command used cp -r ~/desktop something
 
 
 # Copy a file to your home directory or desktop.
+I just reversed this command to get my something directory onto my desktop.
+
+Command used cp -r something/ ~/desktop
 
 
 # Find these files in your graphical user interface and open them in a text editor.
-Notice how sometimes I put a / (slash) at the end of a directory? That makes sure the
-file is really a directory,  so if the directory doesn't exist I'll get an error.
+Using Finder, navigate to your hostname, then Desktop, then something.
+
 
