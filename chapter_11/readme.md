@@ -23,10 +23,15 @@ and it would list the following options now...  "log", "readme.md", and "blah.tx
 
 # Can you move the production.log file in the log directory to slash temp?
 
-Yes you can, you would just type
-mv production.log /tmp
-
-This would now have your production.log file in the /tmp directory
+Yes you can
+First we cd into the log subdirectory in the Chapter_11 directory by typing 
+'cd Chapter_11/log'
+Next, we make sure "production.log" is in this directory.  bu typing...
+'ls production.log' 
+It is, so we
+'mv production.log /tmp'
+We can now check to see it's there by typing
+'ls /tmp'
 
 
 # You may need to make a log directory in the chapter_11 directory, then create a file
