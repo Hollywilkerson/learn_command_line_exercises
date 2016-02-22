@@ -5,6 +5,10 @@
  you can type in 'pwd', which will tell you what directory you are currently in, and then
  you type 'ls' and you can see the list of options for what path you want to take next.
  
+#What does the ls-lr command do?
+The ls -lr command tells you the mode, last write time, length, and name of the directory you 
+are in as well as the files/folders in that directory.
+ 
 
 # Alternative English Ways:
 
