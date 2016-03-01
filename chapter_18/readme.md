@@ -1,55 +1,18 @@
 #Do More
 ##Use quotes to find "new file" and "old file" and "This is".
-### New File
-I typed this..
 
-           grep new * "new file"
-This is the output I got back..
-      
-      
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          grep: new file: No such file or directory
-          
-### Old File
-I typed this...
+                 grep "new file" *.txt
+                 newfile.txt:This is a new file
 
-          grep old * "old file"
-          
-This is the output I got back....
+                 grep "old file" *.txt
+                 oldfile.txt:This is an old file
 
-          oldfile.txt:This is an old file
-          oldfile.txt:This is an old file
-          oldfile.txt:This is an old file
-          grep: old file: No such file or directory
+                 grep "This is" *.txt
+                 newfile.txt:This is a new file
+                 oldfile.txt:This is an old file
+                 
+When we use quotes we are searching for whatever is inside the quotes that also exist in all files that end in .txt
 
-
-###This is
- I typed this:
-
-           grep old * "This is"
-
-This is the output I got back...
-
-           oldfile.txt:This is an old file
-           oldfile.txt:This is an old file
-           oldfile.txt:This is an old file
-           grep: This is: No such file or directory
-
-I also searched the new file by typing..
-
-            grep new * "This is"
-
-This is the output I got...
-
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          newfile.txt:This is a new file
-          grep: This is: No such file or directory
-          
 #Alternative "english" ways of asking you to search files:
 ##Show me the lines in foo.txt that have "ERROR" in them.
 I made a file called "foo.txt" by using the command 
