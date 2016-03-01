@@ -5,14 +5,19 @@ I started in the path of..
 /Users/hollywilkerson/workspace/davinci_coders_t1_2016/homework/learn_command_line_exercises/chapter_17/log
 
 I typed:
-          find . -name "*.log"
+
+         find /tmp/foo -name '*' -print
+         
  
  This is the output I got back...
  
- 
-         ./practice_2.log
-         ./practice_3.log
-         ./practice_4.log
+
+          /tmp/foo
+          /tmp/foo/ex12.txt
+          /tmp/foo/production.log
+          /tmp/foo/Readme
+          /tmp/foo/some_file.txt
+          /tmp/foo/test.txt
 
 
 
