@@ -4,16 +4,16 @@
 
 
 #Explain in your own words what the |, <, >, and >> commands do in your own words.
- > takes output generated on the left and puts it into a file specified on the right. This command will overwrite files.
+ ```> takes output generated on the left and puts it into a file specified on the right. This command will overwrite files.```
 
-< takes output generated on the right and puts it into a file specified on the left. Will over write files !
+```< takes output generated on the right and puts it into a file specified on the left. Will over write files !```
 
-  >> takes output generated on the left, and then APPENDS them to a file on the right.
+ ``` >> takes output generated on the left, and then APPENDS them to a file on the right.
 So if you're file already has text, I would think this would be more useful than >. 
-If there was already text inside a file we  would append, rather than overwriting the file.
+If there was already text inside a file we  would append, rather than overwriting the file.```
 
-| operates similarly to >, but instead of putting the output into a file, | 'pipes' the output
-into another command.
+```| operates similarly to >, but instead of putting the output into a file, | 'pipes' the output
+into another command.```
 
 
 #Alternative "english" ways of asking for pipes and redirection:
